@@ -10,7 +10,7 @@
       mode: 0644
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_1_Ensure_mounting_of_cramfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_1_Ensure_mounting_of_cramfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -24,7 +24,7 @@
       name: cramfs
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_1_Ensure_mounting_of_cramfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_1_Ensure_mounting_of_cramfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -41,7 +41,7 @@
       state: present
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_2_Ensure_mounting_of_freevxfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_2_Ensure_mounting_of_freevxfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -55,7 +55,7 @@
       name: freevxfs
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_2_Ensure_mounting_of_freevxfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_2_Ensure_mounting_of_freevxfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -72,7 +72,7 @@
       state: present
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_3_Ensure_mounting_of_jffs2_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_3_Ensure_mounting_of_jffs2_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -86,7 +86,7 @@
       name: jffs2
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_3_Ensure_mounting_of_jffs2_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_3_Ensure_mounting_of_jffs2_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -103,7 +103,7 @@
       state: present
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_4_Ensure_mounting_of_hfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_4_Ensure_mounting_of_hfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -117,7 +117,7 @@
       name: hfs
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_4_Ensure_mounting_of_hfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_4_Ensure_mounting_of_hfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -134,7 +134,7 @@
       state: present
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_5_Ensure_mounting_of_hfsplus_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_5_Ensure_mounting_of_hfsplus_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -148,7 +148,7 @@
       name: hfsplus
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_5_Ensure_mounting_of_hfsplus_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_5_Ensure_mounting_of_hfsplus_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -165,7 +165,7 @@
       state: present
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_6_Ensure_mounting_of_squashfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_6_Ensure_mounting_of_squashfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -179,7 +179,7 @@
       name: squashfs
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_6_Ensure_mounting_of_squashfs_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_6_Ensure_mounting_of_squashfs_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -196,7 +196,7 @@
       state: present
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_7_Ensure_mounting_of_udf_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_7_Ensure_mounting_of_udf_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -210,7 +210,7 @@
       name: udf
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_7_Ensure_mounting_of_udf_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_7_Ensure_mounting_of_udf_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -227,7 +227,7 @@
       state: present
       create: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_8_Ensure_mounting_of_FAT_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_8_Ensure_mounting_of_FAT_filesystems_is_disabled
   tags:
       - level1
       - scored
@@ -241,7 +241,7 @@
       name: vfat
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_1_8_Ensure_mounting_of_FAT_filesystems_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_1_8_Ensure_mounting_of_FAT_filesystems_is_disabled
   tags:
       - level2
       - scored
@@ -262,7 +262,7 @@
   notify:
       - systemd restart tmp_mount
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_2_Ensure_separate_partition_exists_for_tmp
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_2_Ensure_separate_partition_exists_for_tmp
       - ubuntu1604cis_skip_for_travis == false
   tags:
       - level2
@@ -278,7 +278,7 @@
       masked: no
       state: started
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_2_Ensure_separate_partition_exists_for_tmp
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_2_Ensure_separate_partition_exists_for_tmp
       - ubuntu1604cis_skip_for_travis == false
   tags:
       - level2
@@ -301,8 +301,8 @@
   notify:
       - systemd restart tmp_mount
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_3_Ensure_nodev_option_set_on_tmp_partition
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_4_Ensure_nosuid_option_set_on_tmp_partition
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_3_Ensure_nodev_option_set_on_tmp_partition
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_4_Ensure_nosuid_option_set_on_tmp_partition
   tags:
       - level1
       - scored
@@ -316,7 +316,7 @@
   changed_when: false
   failed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_5_Ensure_separate_partition_exists_for_var
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_5_Ensure_separate_partition_exists_for_var
   tags:
       - level2
       - scored
@@ -330,7 +330,7 @@
   changed_when: false
   failed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_6_Ensure_separate_partition_exists_for_vartmp
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_6_Ensure_separate_partition_exists_for_vartmp
   tags:
       - level2
       - scored
@@ -349,9 +349,9 @@
       opts: "{{ ubuntu1604cis_vartmp['opts'] }}"
   when:
       - ubuntu1604cis_vartmp['enabled'] == 'yes'
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_7_Ensure_nodev_option_set_on_vartmp_partition
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_8_Ensure_nosuid_option_set_on_vartmp_partition
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_9_Ensure_noexec_option_set_on_vartmp_partition
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_7_Ensure_nodev_option_set_on_vartmp_partition
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_8_Ensure_nosuid_option_set_on_vartmp_partition
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_9_Ensure_noexec_option_set_on_vartmp_partition
   tags:
       - level1
       - scored
@@ -366,7 +366,7 @@
   changed_when: false
   failed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_10_Ensure_separate_partition_exists_for_varlog
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_10_Ensure_separate_partition_exists_for_varlog
   tags:
       - level2
       - scored
@@ -380,7 +380,7 @@
   changed_when: false
   failed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_11_Ensure_separate_partition_exists_for_varlogaudit
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_11_Ensure_separate_partition_exists_for_varlogaudit
   tags:
       - level2
       - scored
@@ -394,7 +394,7 @@
   changed_when: false
   failed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_12_Ensure_separate_partition_exists_for_home
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_12_Ensure_separate_partition_exists_for_home
   tags:
       - level2
       - scored
@@ -410,7 +410,7 @@
       fstype: "{{ item_fstype }}"
       opts: "nodev"
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_13_Ensure_nodev_option_set_on_home_partition
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_13_Ensure_nodev_option_set_on_home_partition
       - item_mount == "/home"
   with_items:
       - "{{ ansible_mounts }}"
@@ -430,9 +430,9 @@
       fstype: tmpfs
       opts: "defaults,nodev,nosuid,noexec"
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_14_Ensure_nodev_option_set_on_devshm_partitiov
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_15_Ensure_nosuid_option_set_on_devshm_partitionrun
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_16_Ensure_noexec_option_set_on_devshm_partition
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_14_Ensure_nodev_option_set_on_devshm_partitiov
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_15_Ensure_nosuid_option_set_on_devshm_partitionrun
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_16_Ensure_noexec_option_set_on_devshm_partition
   tags:
       - level1
       - scored
@@ -445,7 +445,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_17_Ensure_nodev_option_set_on_removable_media_partitions
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_17_Ensure_nodev_option_set_on_removable_media_partitions
   tags:
       - level1
       - notscored
@@ -457,7 +457,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_18_Ensure_nosuid_option_set_on_removable_media_partitions
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_18_Ensure_nosuid_option_set_on_removable_media_partitions
   tags:
       - level1
       - notscored
@@ -469,7 +469,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_19_Ensure_noexec_option_set_on_removable_media_partitions
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_19_Ensure_noexec_option_set_on_removable_media_partitions
   tags:
       - level1
       - notscored
@@ -482,7 +482,7 @@
   changed_when: false
   failed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_20_Ensure_sticky_bit_is_set_on_all_world-writable_directories
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_20_Ensure_sticky_bit_is_set_on_all_world-writable_directories
       # - sticky_bit_on_worldwritable_dirs_audit_rc == '0'
   tags:
       - level1
@@ -496,7 +496,7 @@
       enabled: false
   when:
       - ubuntu1604cis_allow_autofs == false and autofs_service_status_stdout == "loaded"
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_1_21_Disable_Automounting
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_1_21_Disable_Automounting
   tags:
       - level1
       - scored
@@ -507,7 +507,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_2_1_Ensure_package_manager_repositories_are_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_2_1_Ensure_package_manager_repositories_are_configured
   tags:
       - level1
       - notscored
@@ -519,7 +519,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_2_3_Ensure_GPG_keys_are_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_2_3_Ensure_GPG_keys_are_configured
   tags:
       - level1
       - notscored
@@ -533,7 +533,7 @@
       state: present
       install_recommends: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_3_1_Ensure_AIDE_is_installed
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_3_1_Ensure_AIDE_is_installed
   tags:
       - level1
       - scored
@@ -551,7 +551,7 @@
   poll: 0
   when:
       - ubuntu1604cis_config_aide
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_3_1_Ensure_AIDE_is_installed
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_3_1_Ensure_AIDE_is_installed
   tags:
       - level1
       - scored
@@ -571,7 +571,7 @@
       weekday: "{{ ubuntu1604cis_aide_cron['aide_weekday'] | default('*') }}"
       job: "{{ ubuntu1604cis_aide_cron['aide_job'] }}"
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_3_2_Ensure_filesystem_integrity_is_regularly_checked
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_3_2_Ensure_filesystem_integrity_is_regularly_checked
   tags:
       - level1
       - scored
@@ -588,7 +588,7 @@
       mode: 0600
   when: 
       - ansible_os_family == "Debian"
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_4_1_Ensure_permissions_on_bootloader_config_are_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_4_1_Ensure_permissions_on_bootloader_config_are_configured
   tags:
       - level1
       - scored
@@ -602,7 +602,7 @@
   register: grub_pass
   when:
       - ubuntu1604cis_set_boot_pass
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_4_2_Ensure_bootloader_password_is_set
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_4_2_Ensure_bootloader_password_is_set
   tags:
       - level1
       - scored
@@ -615,7 +615,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_4_3_Ensure_authentication_required_for_single_user_mode
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_4_3_Ensure_authentication_required_for_single_user_mode
   tags:
       - level1
       - notscored
@@ -631,7 +631,7 @@
       line: '*                hard    core            0'
       insertbefore: '^# End of file'
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_5_1_Ensure_core_dumps_are_restricted
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_5_1_Ensure_core_dumps_are_restricted
   tags:
       - level1
       - scored
@@ -648,7 +648,7 @@
       sysctl_set: true
       ignoreerrors: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_5_1_Ensure_core_dumps_are_restricted
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_5_1_Ensure_core_dumps_are_restricted
   tags:
       - level1
       - scored
@@ -660,7 +660,7 @@
   shell: dmesg | grep -E "NX|XD" | grep " active"
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_5_2_Ensure_XDNX_support_is_enabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_5_2_Ensure_XDNX_support_is_enabled
   tags:
       - level1
       - notscored
@@ -677,7 +677,7 @@
       sysctl_set: true
       ignoreerrors: true
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_5_3_Ensure_address_space_layout_randomization_ASLR_is_enabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_5_3_Ensure_address_space_layout_randomization_ASLR_is_enabled
   tags:
       - level1
       - scored
@@ -689,7 +689,7 @@
   command: prelink -ua
   when:
       - prelink_installed_rc == 0
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_5_4_Ensure_prelink_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_5_4_Ensure_prelink_is_disabled
   tags:
       - level1
       - scored
@@ -701,7 +701,7 @@
       name: prelink
       state: absent
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_5_4_Ensure_prelink_is_disabled
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_5_4_Ensure_prelink_is_disabled
   tags:
       - level1
       - scored
@@ -717,7 +717,7 @@
   ignore_errors: true
   notify: generate new grub config
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_6_1_1_Ensure_SELinux_is_not_disabled_in_bootloader_configuration
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_6_1_1_Ensure_SELinux_is_not_disabled_in_bootloader_configuration
   tags:
       - level2
       - scored
@@ -728,7 +728,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_6_1_2_Ensure_the_SELinux_state_is_enforcing
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_6_1_2_Ensure_the_SELinux_state_is_enforcing
   tags:
       - level1
       - scored
@@ -740,7 +740,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_6_1_3_Ensure_SELinux_policy_is_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_6_1_3_Ensure_SELinux_policy_is_configured
   tags:
       - level1
       - scored
@@ -752,7 +752,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_6_1_4_Ensure_no_unconfined_daemons_exist
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_6_1_4_Ensure_no_unconfined_daemons_exist
   tags:
       - level1
       - scored
@@ -764,7 +764,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_6_2_1_Ensure_AppArmor_is_not_disabled_in_bootloader_configuration
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_6_2_1_Ensure_AppArmor_is_not_disabled_in_bootloader_configuration
   tags:
       - level1
       - scored
@@ -776,7 +776,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_6_2_2_Ensure_all_AppArmor_Profiles_are_enforcing
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_6_2_2_Ensure_all_AppArmor_Profiles_are_enforcing
   tags:
       - level1
       - scored
@@ -788,7 +788,7 @@
   command: /bin/true
   changed_when: false
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_6_3_Ensure_SELinux_or_AppArmor_are_installed
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_6_3_Ensure_SELinux_or_AppArmor_are_installed
   tags:
       - level1
       - scored
@@ -802,7 +802,7 @@
       src: etc/motd_j2
       dest: /etc/motd
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_7_1_1_Ensure_message_of_the_day_is_configured_properly
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_7_1_1_Ensure_message_of_the_day_is_configured_properly
   tags:
       - level1
       - scored
@@ -815,7 +815,7 @@
       src: etc/issue_j2
       dest: /etc/issue
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_7_1_2_Ensure_local_login_warning_banner_is_configured_properly
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_7_1_2_Ensure_local_login_warning_banner_is_configured_properly
   tags:
       - level1
       - notscored
@@ -828,7 +828,7 @@
       src: etc/issue_net_j2
       dest: /etc/issue_net
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_7_1_3_Ensure_remote_login_warning_banner_is_configured_properly
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_7_1_3_Ensure_remote_login_warning_banner_is_configured_properly
   tags:
       - level1
       - notscored
@@ -844,7 +844,7 @@
       group: root
       mode: 0644
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_7_1_4_Ensure_permissions_on_etcmotd_are_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_7_1_4_Ensure_permissions_on_etcmotd_are_configured
   tags:
       - level1
       - notscored
@@ -860,7 +860,7 @@
       group: root
       mode: 0644
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_7_1_5_Ensure_permissions_on_etcissue_are_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_7_1_5_Ensure_permissions_on_etcissue_are_configured
   tags:
       - level1
       - scored
@@ -876,7 +876,7 @@
       group: root
       mode: 0644
   when:
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_7_1_6_Ensure_permissions_on_etcissue_net_are_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_7_1_6_Ensure_permissions_on_etcissue_net_are_configured
   tags:
       - level1
       - notscored
@@ -903,7 +903,7 @@
       - { file: '/etc/dconf/db/gdm_d/01-banner-message', regexp: 'banner-message-text', line: "banner-message-text='{{ ubuntu1604cis_warning_banner }}' " }
   when:
       - ubuntu1604cis_gui
-      - root_CISPP_xccdf_org_cisecurity_benchmarks_r1ule_1_7_2_Ensure_GDM_login_banner_is_configured
+      - root_CISPP_xccdf_org_cisecurity_benchmarks_rule_1_7_2_Ensure_GDM_login_banner_is_configured
   tags:
       - level1
       - scored
